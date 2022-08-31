@@ -1,0 +1,87 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkslategrey;
+    color: gainsboro;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.descricao{
+    width: 300px;
+
+}
+
+.h2{
+    margin-bottom: 5px;
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 50%;
+    background-color: dimgray;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;/*distancia elementos*/
+}
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;/*separa um pouco*/
+    align-items: center;
+    margin-top: 13px;
+}
+
+.botao-play , .botao-pause{
+    font-size: 50px;
+    cursor: pointer;/*elemento clicavel*/
+
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+    cursor: pointer;
+}
+
