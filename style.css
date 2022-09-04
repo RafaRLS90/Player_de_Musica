@@ -69,7 +69,7 @@ progress{
     margin-top: 13px;
 }
 
-.botao-play , .botao-pause{
+.botao-play , .fa-pause{
     font-size: 50px;
     cursor: pointer;/*elemento clicavel*/
 
@@ -80,8 +80,8 @@ progress{
     cursor: pointer;
 }
 
-.botao-pause{
-    display: none;
+.fa-pause{
+    /*display: none;*/
     cursor: pointer;
 }
 
